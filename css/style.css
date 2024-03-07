@@ -134,3 +134,41 @@ html {
     content: url("../img/banner/banner3.webp");
   }
 }
+
+/* Gallery */
+.gal-img {
+  /* width: 19em !important; */
+  height: 200px;
+}
+.gal-img img {
+  width: 100% !important;
+  height: 100%;
+}
+
+/* Amenities */
+
+.amenities_wrapper figure {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+  overflow: hidden;
+}
+
+.amenities_wrapper figure img:hover {
+  transform: scale(1.1);
+}
+
+.amenities_wrapper figcaption {
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  background: var(--colorPrimary);
+}
+.amenities_wrapper figcaption h3 {
+  font-weight: 100;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  font-size: 1.2em;
+  color: var(--colorWhite);
+}
